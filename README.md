@@ -6,9 +6,11 @@ Every web brower stores ever gigabytes of information. You can tell Firefox to c
 
 This repository is what existed after a totally clean initial run of Firefox with extensions installed and some about:config settings set. 
 
-###ToDo
-- [ ] Stop using firefox-esr like a rebel. Use firefox.
-- [ ] Record the changes actually made in about:config. Telling firefox to show changes shows a lot.
+### ToDo
+- [ ] Remove evidence of firefox-esr.
+- [ ] Remove unnecessary files.
+- [ ] Record the changes actually made in about:config because telling firefox to show changes way to much.
 - [ ] Define what each preloaded extension does in this readme.
+- [ ] Create a way to keep only desirable cookies (automatically delete the rest).
 - [ ] Create a way to redfine the keyboard.
-- [ ] Create a way to keep only the desirable cookies (automatically delete the rest).
+- [ ] Cause arrow keys to visually navigate division tree.
