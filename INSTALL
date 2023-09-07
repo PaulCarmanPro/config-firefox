@@ -1,0 +1,10 @@
+#! /bin/bash
+
+# config-firefox/INSTALL
+
+dSource="$(dirname -- "${BASH_SOURCE[0]}")"
+dDest="$HOME/.mozilla"
+mkdir -p "$dDest"
+[[ -e "$dDest/firefox" ]] \
+   && mv "$dDest/firefox" "$dDest/firefox~"
+cp -r "$dSource/firefox" "$dDest/"
